@@ -30,13 +30,11 @@ header {
   /* Remove the <header> box and allow us to directly apply header’s children to the grid. */
   /* display: contents; */
   position: relative;
-  border: 2px solid red;
   grid-area: banner;
 }
 
 h1 {
   z-index: 1;
-  border: 2px solid pink;
   position: absolute;
   bottom: 0;
   width: 14rem;
@@ -61,7 +59,6 @@ nav ul {
   display: flex;
   z-index: 1;
   list-style: none;
-  border: 2px solid orange;
 }
 
 nav li {
@@ -78,20 +75,13 @@ nav a:link {
 main {
   grid-area: main;
   display: flex;
-
-  border: 2px solid lime;
 }
 
 figure {
   margin: 0;
 }
 
-main figure:first-child {
-  border: 2px solid red;
-}
-
 main figure:last-child {
-  border: 2px solid blue;
   margin-left: 1rem;
 }
 
