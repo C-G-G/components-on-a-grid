@@ -13,11 +13,9 @@ html {
 
 body {
   background-color: #f2f1ed;
-  margin: 1rem;
+  margin: 0;
   display: grid;
-  grid-template-areas:
-      "banner banner"
-      "main main";
+  grid-template-areas: "banner banner" "main main";
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto 1fr;
   grid-gap: 1rem;
@@ -73,6 +71,7 @@ nav li {
 
 nav a:link {
   color: #fff;
+
   /* text-decoration-thickness: .2rem; */
 }
 
