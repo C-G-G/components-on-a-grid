@@ -16,9 +16,8 @@ body {
   margin: 1rem;
   display: grid;
   grid-template-areas:
-    "banner banner"
-    "main main";
-    /* "mainleft mainright"; */
+      "banner banner"
+      "main main";
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto 1fr;
   grid-gap: 1rem;
@@ -62,7 +61,6 @@ nav {
 
 nav ul {
   display: flex;
-  /* justify-content: space-between; */
   z-index: 1;
   list-style: none;
   border: 2px solid orange;
@@ -81,9 +79,7 @@ nav a:link {
 main {
   grid-area: main;
   display: flex;
-  /* display: grid;
-  grid-area: "mainleft mainright";
-  grid-template-columns: 1fr 1fr; */
+
   border: 2px solid lime;
 }
 
@@ -93,12 +89,10 @@ figure {
 
 main figure:first-child {
   border: 2px solid red;
-  /* grid-area: mainleft; */
 }
 
 main figure:last-child {
   border: 2px solid blue;
-  /* grid-area: mainright; */
   margin-left: 1rem;
 }
 
